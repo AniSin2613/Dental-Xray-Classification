@@ -21,7 +21,7 @@ This task includes two major steps:
 The aim of Image Processing (or rather Digital Image Processing) is to improve the image data (features) by suppresing unwanted distortions and/or enhancement of some important image features so that our Computer Vision models can benefit from this improved data to work on.
 
 For our case, I tried three methods: **Histogram Equalization**, **Edge Detection**, **Clustering**. For more details, please refer to the python notebook.
-[Link to the notebook:] (https://github.com/AniSin2613/Dental-Xray-Classification/blob/main/Teeth_Root_Classififcation.ipynb)
+[Link to the notebook:](https://github.com/AniSin2613/Dental-Xray-Classification/blob/main/Teeth_Root_Classififcation.ipynb)
 
 ## Training and Validating Neural Network
 I created 5-layers artificial neural network to train a model on the training examples set (pre-processed images: histogram equalization and edge detection only). These 5-layered network consist - two *[convolutional layers + pooling layers]*, two *[fully-connected dense layers]*, one *output layer*. Although this neural network overfitted a little, it still works satisfactorily on the test(unseen) data.
